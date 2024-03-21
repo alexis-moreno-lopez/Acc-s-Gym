@@ -17,14 +17,7 @@
     line-height: 1.5;
     min-height: 100vh;
   }
-  /*-------------------------------------------- Titre------------------------------------------------------------*/
-  h1 {
-    text-align: center;
-    margin: 1%;
-    padding: 10px 10px 10px 10px;
-  
-  }
-  /*-------------------------------------------- Fin------------------------------------------------------------*/
+
   /*-------------------------------------------- navbar------------------------------------------------------------*/
   
   .navbar {
@@ -81,6 +74,15 @@
   
     width: 50px;
   }
+    /*-------------------------------------------- Titre------------------------------------------------------------*/
+    h1 {
+      text-align: center;
+      margin: 1%;
+      padding: 10px 10px 10px 10px;
+    
+    }
+    /*-------------------------------------------- Fin--------------------------------------------------------------*/
+/*-------------------------------------------- Header------------------------------------------------------------*/
   header {
     background-image: url(/img/sportpoids.jpg);
     width: 100%;
@@ -89,29 +91,99 @@
     background-size: cover;
     background-position: center;
   }
-  .p1 {
-padding: 100px;
+  .paragraphe-un {
+    text-align: left;
+padding: 20px 150px 0px 50px;
 color: white;
+  } 
+  
+  .margin {
+    margin-left: 50px;
   }
-  .p2 {
-    padding: 100px;
+  /*-------------------------------------------- Fin--------------------------------------------------------------*/
+
+  .paragraphe-deux {
+    text-align: left;
+    padding: 20px 150px 0px 0px;
     color: black;
   }
-  .brown {
+  .background-brown {
     background: #413434;
   }
   .taille-img-1 {
     height: 250px;
     width: 300px;
-    margin:50px 0px 0px 40px ;
+
   }
   .taille-img-2 {
     height: 250px;
     width: 300px;
-    margin:5px 50px 40px 40px ;
+
   }
   .taille-img-3 {
     height: 250px;
     width: 300px;
-    margin:5px 50px 40px 40px ;
+
+  }
+  .center {
+    align-items: center;
+    display: flex;
+    text-align: left;
+  }
+  .ajustement {
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  .titre-un {
+    text-align: left;
+    padding-left: 50px ;
+  }
+  .titre-deux {
+    text-align: left;
+  }
+    /*--------------------------------------------MediaQuery------------------------------------------------------------*/
+  @media (max-width: 880px) { 
+
+    .center {
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px;
+    }
+    .margin {
+      padding-bottom: 30px;
+    }
+    h1 {
+      padding-top: 200px;
+    }
+
+    .ajustement {
+  flex-direction: column;
+  justify-content: center;
+  
+    }
+    .titre-un {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 0px;
+      margin: 0px;
+    }
+    .paragraphe-un{
+justify-content: center;
+
+      padding:0px;
+    }
+    .titre-deux {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 0px 50px 0px;
+      margin: 0px;
+    }
+    .paragraphe-deux {
+      display: flex;
+      justify-content: center;
+      padding: 0px 0px 50px 0px;
+    }  
   }

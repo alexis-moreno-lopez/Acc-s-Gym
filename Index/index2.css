@@ -26,7 +26,17 @@ h1 {
 }
 /*-------------------------------------------- Fin------------------------------------------------------------*/
 /*-------------------------------------------- navbar------------------------------------------------------------*/
-
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-img {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navbar {
   min-width: 100vw;
   background-color: #fe7000;
@@ -46,6 +56,7 @@ height: 80px;
 }
 .navbar li {
   position: relative;
+
  
 
 }

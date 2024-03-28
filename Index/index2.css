@@ -19,9 +19,11 @@ body {
 }
 /*-------------------------------------------- Titre------------------------------------------------------------*/
 h1 {
+  color: white;
   text-align: center;
   margin: 1%;
   padding: 10px 10px 10px 10px;
+  font-style: italic;
 
 }
 /*-------------------------------------------- Fin------------------------------------------------------------*/
@@ -38,7 +40,7 @@ h1 {
   align-items: center;
 }
 .navbar {
-  min-width: 100vw;
+
   background-color: #fe7000;
 height: 80px;
 
@@ -56,7 +58,8 @@ height: 80px;
 }
 .navbar li {
   position: relative;
-
+font-size: 1.3rem;
+font-style: italic;
  
 
 }
@@ -87,6 +90,7 @@ color: white;
   height: 40px;
   width: 40px;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -137,6 +141,8 @@ h2,
 .date {
   margin: 0;
   text-align: center;
+  
+  
 }
 
 .bas-card,
@@ -233,6 +239,7 @@ h3 {
   text-align: center;
   text-shadow: -1px -1px 0 #2d2d2d, 1px -1px 0 #2d2d2d, -1px 1px 0 #2d2d2d,
     1px 1px 0 #2d2d2d;
+    
 }
 .display {
   display: flex;
@@ -411,6 +418,24 @@ margin: 0;
 padding-bottom: 5%;
 
 }
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color:#fe7000;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
 
 /*--------------------------------------------Fin------------------------------------------------------------*/
 
@@ -446,4 +471,5 @@ font-size: 1rem;
     font-size: 0.7rem
   }
 }
+
 

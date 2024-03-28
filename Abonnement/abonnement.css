@@ -18,6 +18,7 @@
   }
   /*-------------------------------------------- Titre------------------------------------------------------------*/
   h1 {
+    color: white;
     text-align: center;
     margin: 1%;
     padding: 10px 10px 10px 10px;
@@ -25,9 +26,18 @@
   }
   /*-------------------------------------------- Fin------------------------------------------------------------*/
   /*-------------------------------------------- navbar------------------------------------------------------------*/
-  
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-img {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .navbar {
-    min-width: 100vw;
     background-color: #fe7000;
   height: 80px;
   
@@ -45,6 +55,7 @@
   }
   .navbar li {
     position: relative;
+    font-size: 1.3rem;
    
   
   }
@@ -75,6 +86,7 @@
     height: 40px;
     width: 40px;
   }
+  
   a {
     text-decoration: none;
     color: black;
@@ -142,9 +154,31 @@ h3 {
 .ligne {
     display: flex;
 }
+.font {
+  font-size: 1.5rem;
+}
 .paragraphe-un {
     padding: 100px;
 }
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color:#fe7000;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
+
 /*--------------------------------------------Fin------------------------------------------------------------*/
 /*--------------------------------------------MediaQuery------------------------------------------------------------*/
 @media (max-width: 993px) { 

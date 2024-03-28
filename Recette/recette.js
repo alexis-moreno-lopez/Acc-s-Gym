@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const buttons = document.querySelectorAll(".recette");
     const modal = document.getElementById("myModal");
-    const closeButton = document.querySelector("#btn_close");
+    const closeButton = document.querySelector("#btn-close");
+    
 
     buttons.forEach(button => {
         button.addEventListener("click", () => {
@@ -9,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             modal.classList.add("d-flex");
         });
     });
+
 
     closeButton.addEventListener("click", () => {
         modal.classList.remove("d-flex");
@@ -45,3 +47,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    var scrollToTopBtn = document.querySelector('.scroll-to-top');
+  
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        scrollToTopBtn.style.display = 'block';
+      } else {
+        scrollToTopBtn.style.display = 'none';
+      }
+    });
+  
+    scrollToTopBtn.addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  });

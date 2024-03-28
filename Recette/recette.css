@@ -17,11 +17,28 @@
     line-height: 1.5;
     min-height: 100vh;
   }
-
-  /*-------------------------------------------- navbar------------------------------------------------------------*/
+  h1 {
+    color: white;
+    text-align: center;
+    margin: 1%;
+    padding: 10px 10px 10px 10px;
   
+  }
+  /*-------------------------------------------- Fin------------------------------------------------------------*/
+  /*-------------------------------------------- navbar------------------------------------------------------------*/
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-img {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .navbar {
-    min-width: 100vw;
+ 
     background-color: #fe7000;
   height: 80px;
   
@@ -39,6 +56,7 @@
   }
   .navbar li {
     position: relative;
+    font-size: 1.3rem;
    
   
   }
@@ -69,6 +87,7 @@
     height: 40px;
     width: 40px;
   }
+  
   a {
     text-decoration: none;
     color: black;
@@ -97,7 +116,9 @@
     justify-content: center;
     align-items: center;
   }
-
+.salut {
+  padding: 0px;
+}
  /*--------------------------------------------Section-un------------------------------------------------------------*/
 
 
@@ -195,11 +216,12 @@
     justify-content: center;
 
   }  
-.h {
+/* .h {
     background-color: rgba(254,112,0,0.6);
 border-radius: 50px;
 padding: 10px;
-}
+
+} */
 
   .titre-un {
     background-color: rgba(254,112,0,0.9);
@@ -314,6 +336,28 @@ padding: 10px;
 
   align-items: center;
 }
+.descriptif {
+  padding: 10px 10px 10px 10px;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color:#fe7000;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
+
 @media (max-width: 1500px) { 
 
   .modalImg {

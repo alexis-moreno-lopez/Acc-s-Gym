@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
   list-style: none;
 }
 
@@ -30,34 +29,37 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
-  
-    .box {
-      flex-direction: column;
-      justify-content: center;
-      display: flex;
-      height: 100%;
-      width: 30%;
-      background-color: rgb(0, 0, 0, 0.4);
-    }
-  
-    form {
-        
-      height: 10px;
-      width: auto;
-      .btnconnexion {
-        margin-top: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        
-      }
-    }
-  }
-  input {
-    height: 30px;
-    border-radius: 5px;
-    border:0px;
-  }
+}
+
+
+
+
+.box {
+height: 100%;
+width: 30%;
+background-color: rgb(0, 0, 0, 0.4); 
+}
+.test1 {
+  margin-top: 100px;
+  margin-bottom: 250px;
+
+}
+img {
+  border-radius: 20px;
+}
+form {
+display: flex;
+  flex-direction: column;
+}
+
+input {
+height: 30px;
+margin-bottom: 30px;
+border-radius: 5px;
+border: 0px;
+flex-direction: column;
+margin: 10px 100px 30px 100px;
+}
 
   .valider {
     height: 40px;
@@ -72,33 +74,50 @@ body {
   .valider:hover {
     background: #fe7000;
   }
+  @media (max-width: 1300px) { 
 
-  img {
-margin-bottom: 200px;
-    border-radius: 20px;
+    input {
+      margin: 10px 60px 30px 60px;
+    }
   }
-  @media (max-width: 1220px) { 
+  @media (max-width: 1240px) { 
+
+   .inputconect {
+  
+flex-direction: column;
+    }
+    img {
+      height: 55px;
+      width: 180px;
+    }
+    input {
+      margin: 10px 60px 30px 60px;
+    }
+  }
+ 
+  @media (max-width: 1050px) { 
 
     input {
-justify-content: center;
-text-align: center;
-align-items: center;
-display: flex;
-     }
-   }
-
-   
-  @media (max-width: 640px) { 
+      margin: 10px 40px 30px 40px;
+    }
+  }
+  @media (max-width: 800px) { 
 
     input {
-max-width: 150px;
-     }
-   }
-   
-  @media (max-width: 550px) { 
+      margin: 10px 20px 30px 20px;
+    }
+  } 
+  @media (max-width: 650px) { 
 
+    img {
+      height: 50px;
+      width: 120px;
+    }
+    .test1 {
+margin-top: 150px;
+margin-bottom: 150px;
+    }
     input {
-max-width: 120px;
-     }
-   }
-   
+      margin: 10px 10px 30px 10px;
+    }
+  }

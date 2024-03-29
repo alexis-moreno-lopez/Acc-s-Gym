@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
   }
   .nav-img {
     width: 30px;
@@ -93,16 +94,20 @@
     color: black;
   
   }
+  #offcanvasDarkNavbar {
+    background-color: #fe7000;
+  }
   .nav-img {
   
     width: 50px;
   }
   @media (max-width: 1200px) { 
+
+    .nav-link {
+  color: black;
   
-    .logoProfil {
-  
-  background-color: white;
     }
+  
   }
   /*--------------------------------------------Grand Titre------------------------------------------------------------*/
   h1 {
@@ -215,7 +220,11 @@ border-radius: 30px;
 
     .hidden {
         display: none;
-    }
+    }    
+        
+li {
+  text-align: start;
+}
     header {
         padding-bottom: 50px;
         display: flex;
@@ -242,4 +251,3 @@ border-radius: 30px;
                    width: 300px;
                   }
      }
-        

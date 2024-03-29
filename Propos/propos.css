@@ -31,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
   }
   .nav-img {
     width: 30px;
@@ -94,17 +95,22 @@
     color: black;
   
   }
+  #offcanvasDarkNavbar {
+    background-color: #fe7000;
+  }
   .nav-img {
   
     width: 50px;
   }
   @media (max-width: 1200px) { 
+
+    .nav-link {
+  color: black;
   
-    .logoProfil {
-  
-  background-color: white;
     }
+  
   }
+  
     /*-------------------------------------------- Titre------------------------------------------------------------*/
     h1 {
       text-align: center;

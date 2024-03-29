@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
   }
   .nav-img {
     width: 30px;
@@ -93,16 +94,20 @@
     color: black;
   
   }
+  #offcanvasDarkNavbar {
+    background-color: #fe7000;
+  }
   .nav-img {
   
     width: 50px;
   }
   @media (max-width: 1200px) { 
+
+    .nav-link {
+  color: black;
   
-    .logoProfil {
-  
-  background-color: white;
     }
+  
   }
   /*--------------------------------------------Header------------------------------------------------------------*/
   header {
@@ -245,13 +250,7 @@ padding: 10px;
 
 
 
-  @media (max-width: 1200px) { 
 
-    .logoProfil {
-  
-  background-color: white;
-    }
-  }
   .modalImg {
     position: fixed; /* Hidden by default */
     z-index: 1; /* Sit on top */
@@ -338,6 +337,8 @@ padding: 10px;
 }
 .descriptif {
   padding: 10px 10px 10px 10px;
+  background: #fe7000;
+
 }
 .scroll-to-top {
   position: fixed;
@@ -356,6 +357,17 @@ padding: 10px;
 
 .scroll-to-top i {
   font-size: 20px;
+}
+.text {
+  text-align: start;
+  margin-bottom: 15px;
+}
+.background {
+  background:rgb(242, 240, 240);
+}
+
+li {
+  text-align: start;
 }
 
 @media (max-width: 1500px) { 

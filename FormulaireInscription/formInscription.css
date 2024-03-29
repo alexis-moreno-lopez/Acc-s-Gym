@@ -71,6 +71,9 @@
     color: black;
   
   }
+  #offcanvasDarkNavbar {
+    background-color: #fe7000;
+  }
   .nav-img {
   
     width: 50px;

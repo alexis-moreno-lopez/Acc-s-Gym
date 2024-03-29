@@ -32,6 +32,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 .nav-img {
   width: 30px;
@@ -90,7 +91,9 @@ color: white;
   height: 40px;
   width: 40px;
 }
-
+#offcanvasDarkNavbar {
+  background-color: #fe7000;
+}
 a {
   text-decoration: none;
   color: black;
@@ -102,11 +105,13 @@ a {
 }
 @media (max-width: 1200px) { 
 
-  .logoProfil {
+  .nav-link {
+color: black;
 
-background-color: white;
   }
+
 }
+
 /*--------------------------------------------Fin------------------------------------------------------------*/
 /*--------------------------------------------Header------------------------------------------------------------*/
 .space-h3 {
@@ -141,6 +146,7 @@ h2,
 .date {
   margin: 0;
   text-align: center;
+  margin-bottom: 10px;
   
   
 }
@@ -451,7 +457,7 @@ padding-bottom: 5%;
 
 @media (max-width: 763px) { 
 
-  h1, h2, h3, h4, h5{
+h2, h3, h4, h5{
 
 font-size: 1.3rem;
 
@@ -459,17 +465,19 @@ font-size: 1.3rem;
   p {
     font-size: 1rem
   }
+
 }
 @media (max-width: 663px) { 
 
-  h1, h2, h3, h4, h5{
+h2, h3, h4, h5 {
 
-font-size: 1rem;
+font-size: 1.1rem;
 
   }
   p {
-    font-size: 0.7rem
+    font-size: 0.9rem
   }
+
 }
 
 
